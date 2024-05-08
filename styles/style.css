@@ -3,5 +3,133 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
-    background-color: rgb(162, 177, 177);
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: rgb(225, 6, 0);
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #000000 10px solid;
+    margin-bottom: 30px;
+}
+
+.cabecalho-menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f1-logo{
+    width: 200px;
+    height: 60px;
+}
+
+.menu-option{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#campeonato-menu{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    transition: 0.5s;
+}
+
+#campeonato-menu:hover{
+    transition: 0.5s;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal{
+    margin-bottom: 20px;
+    display: flex;
+    width: 50%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.principal-image{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.noticia-1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.noticia-imagem{
+    width: 40%;
+}
+
+.noticia-titulo{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.feature{
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.conteudo{
+    text-align:start;
+    font-size: 15px;
+    margin: 30px;
+    height: 200px;
+}
+
+.rodape{
+    align-items: center;
+    height: 80px;
+    display: flex;
+    background-color: #38383f;
+    justify-content: space-between;
+}
+
+.redes-sociais{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.rodape-section{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+#direitos{
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
 }

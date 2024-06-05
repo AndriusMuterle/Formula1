@@ -30,13 +30,6 @@
 }
 
 .menu-option{
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-#campeonato-menu{
     padding: 5px;
     border-radius: 5px;
     background-color: #ffffff;
@@ -47,7 +40,7 @@
     transition: 0.5s;
 }
 
-#campeonato-menu:hover{
+.menu-option:hover{
     transition: 0.5s;
     padding: 10px;
     background-color: #000000;
@@ -132,4 +125,60 @@ main{
     color: #ffffff;
     text-align: center;
     font-size: 10px;
+}
+
+.main-historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.decadas,.historia-abertura,.historia-conclusao{
+    width: 80%;
+    margin: 10px;
+    text-align: start;
+}
+
+#historico{
+    text-align: center;
+    width: 70%;
+}
+
+#tabela-historico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+td{
+    margin: 0px;
+    padding: 10px;
+    text-align: start;
+    border: 1px solid black;
+}
+
+.corrida{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.corrida-descricao{
+    margin: 10px;
+}
+
+.bandeira{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.main-calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

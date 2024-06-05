@@ -182,3 +182,39 @@ td{
     flex-direction: column;
     align-items: center;
 }
+
+
+.section-pilotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.section-pilotos h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.lista-pilotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-pilotos li{
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-equipes{
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

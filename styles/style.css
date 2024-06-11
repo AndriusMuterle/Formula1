@@ -203,7 +203,7 @@ td{
 }
 
 .lista-pilotos li{
-    padding: 10px;
+    padding: 20px;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -217,4 +217,16 @@ td{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.piloto-imagem{
+    width: 220px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.equipe-imagem {
+    width: 1000px;
+    height: 500px;
+    margin: 50px;
 }
